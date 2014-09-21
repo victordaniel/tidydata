@@ -1,0 +1,20 @@
+variable-name     description
+
+analy          ---   function name
+tr             ---   contains original training data set
+ts             ---   contains original test data set
+trs            ---   merges training and testing data sets
+ms             ---   contains only columns related to mean and standrd deviation
+a1             ---   contains activity number from training data set
+a2             ---   contains activity number from test data set
+a12            ---   merges a1 and a2 data 
+ms             ---   merges columns from a12 i.e activity numbers with original training and testing data set
+a11            ---   contains subject from training data set
+a12            ---   contains subject from test data set
+a112           ---   merged data from a11 and a12
+ms             ---   merges subject data with original data set
+ms[,65]        ---   contains activity name replacing every activity number
+x              ---   contains tidy data set
+f              ---   contains average value of 1st column grouped by subject and activity
+a              ---   contains average value of 2nd to 65  columns grouped by subject and activity 
+f              ---   contains merged tidy data set  of all columns with the average of each variable for every subject and every activity          
